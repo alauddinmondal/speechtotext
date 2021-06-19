@@ -10,8 +10,8 @@
 
 
  ... YOUR API DETAILS...
- apikey = 'IUlQEmkCu-Y97CElfTPEJQdVXxp0Vr3ZU7OqW2LnVf90'
- url = 'https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/c062676f-5c38-4c59-8a4c-314af5e3f04d'
+ apikey = '<YOUR API>'
+ url = '<YOUR SERVICE URL>'
 
  authenticator = IAMAuthenticator(apikey)
  stt = SpeechToTextV1(authenticator=authenticator)
